@@ -44,7 +44,6 @@ python main.py
 ## Output Files
 
 - `rebar_manufacturers.csv` - CSV format
-- `rebar_manufacturers.xlsx` - Excel format
 
 ## Requirements
 

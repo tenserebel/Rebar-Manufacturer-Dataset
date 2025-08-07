@@ -52,7 +52,7 @@ for page in range(1, total_pages + 1):
         try:
             raw_name = button.text.strip().split(",")[0]
             company_name = fix_text(raw_name)
-            print(f"   ➤ {company_name}")
+            print(f"{company_name}")
 
             # Click and wait for the associated content to open
             driver.execute_script("arguments[0].scrollIntoView(true);", button)
